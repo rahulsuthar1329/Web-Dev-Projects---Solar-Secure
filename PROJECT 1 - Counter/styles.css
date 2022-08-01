@@ -1,0 +1,77 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.container{
+    /* width: 100vw; */
+    /* background: linear-gradient(rgba()); */
+    /* background: linear-gradient(to right, #0f2027, #203a43, #2c5#000364); */
+    /* background: url("gradiant.jpg") center center no-repeat; */
+    display: flex;
+    background-size: cover;
+    /* border: 5px solid red; */
+    justify-content: center;
+    align-items: center;
+}
+
+.counter{
+    /* border: 2px solid black; */
+    box-sizing: border-box;
+    height: 300px;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    background: linear-gradient(to right, #8e2de2, #4a00e0);
+    box-shadow: 0 0 20px 5px rgba(0,0,0,0.3);
+    /* background-color: white; */
+    
+}
+
+.counter .increment, .decrement{
+    height: auto;
+    padding: 50px 40px;
+    margin: 30px;
+    border-radius: 5px;
+    font-size: 30px;
+}
+
+.neutral{
+    height: auto;
+    padding: 50px 40px;
+    margin: 30px;
+    border-radius: 5px;
+    font-size: 30px;
+}
+
+.increment:hover{
+    background-color: green;
+    color: white;
+    cursor: pointer;
+}
+
+.decrement:hover{
+    background-color: orangered;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* .counting{
+    border: 2px solid white;
+    background: white;
+    background-color: whitesmoke;
+    height: auto;
+    padding: 50px 40px;
+    margin: 30px;
+    border-radius: 5px;
+    font-size: 30px;
+} */
+
+.group{
+    display: flex;
+}

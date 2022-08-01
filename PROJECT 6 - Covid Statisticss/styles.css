@@ -1,0 +1,34 @@
+body {
+  background-image: radial-gradient(
+    circle 248px at center,
+    #16d9e3 0%,
+    #30c7ec 47%,
+    #46aef7 100%
+  );
+}
+
+h1 {
+  background-color: rgb(60, 56, 56);
+  text-align: center;
+  margin: 20px 0;
+  border-radius: 5px;
+  color: white;
+  padding: 5px;
+}
+
+.thead {
+  background-color: rgb(60, 56, 56);
+  color: white;
+}
+
+thead {
+  margin-top: 10px !important;
+}
+
+#CovidTable_filter input {
+  background-color: white;
+}
+
+#CovidTable_wrapper {
+  /* margin: 50px; */
+}

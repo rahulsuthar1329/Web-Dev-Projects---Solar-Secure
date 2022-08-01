@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: rgb(158, 40, 111);
+    background-size: cover;
+    /* color: white; */
+    height: 100vh;
+}
+
+form *{
+    font-size: 20px;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    height: 100%;
+    /* border: 2px solid black; */
+}
+
+form{
+    border: 3px solid white;
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.5);
+    padding: 25px;
+    border-radius: 5px;
+    /* background: blanchedalmond; */
+    background: white;
+    background-size: cover;
+}
+
+.container div{
+    margin: 15px 12px;
+}
+
+.smallbox{
+    width: 35px;
+}
+
+.bigbox{
+    width: 208px;
+}
+
+.Submit{
+    text-align: center;
+}
+
+#submit{
+    padding: 0 5px;
+    font-size: 15px;
+}
